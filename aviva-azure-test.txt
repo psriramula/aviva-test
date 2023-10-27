@@ -1,0 +1,114 @@
+
+
+
+Azure Sentinel test
+
+
+
+
+Role
+
+ARN   arn:aws:iam::639309354735:role/MicrosoftSentinelRole
+
+
+ 	
+
+sqs
+
+ 	cloudwatch - https://sqs.eu-west-2.amazonaws.com/639309354735/AzureSentinelBoundSQS-CloudWatch
+
+
+
+ 	{
+      "Sid": "allow specific role to read/delete/change visibility of SQS messages and get queue url",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "${arn:aws:iam::639309354735:role/MicrosoftSentinelRole}"
+      },
+      "Action": [
+        "SQS:ChangeMessageVisibility",
+        "SQS:DeleteMessage",
+        "SQS:ReceiveMessage",
+        "SQS:GetQueueUrl"
+      ],
+      "Resource": "${arn:aws:sqs:eu-west-2:639309354735:AzureSentinelBoundSQS-CloudWatch}"
+    }
+
+
+       {
+      "Sid": "allow specific role to read/delete/change visibility of SQS messages and get queue url",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::639309354735:role/MicrosoftSentinelRole"
+      },
+      "Action": [
+        "SQS:ChangeMessageVisibility",
+        "SQS:DeleteMessage",
+        "SQS:ReceiveMessage",
+        "SQS:GetQueueUrl"
+      ],
+      "Resource": "arn:aws:sqs:eu-west-2:639309354735:AzureSentinelBoundSQS-CloudWatch"
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    s3
+
+
+azure-sentinel-test
+
+ARN  arn:aws:s3:::azure-sentinel-test
+
+
+
+ {
+            "Sid": "send-notifications-sqs",
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "s3.amazonaws.com"
+            },
+            "Action": [
+                "SQS:SendMessage"
+            ],
+            "Resource": "arn:aws:sqs:eu-west-2:639309354735:AzureSentinelBoundSQS-CloudWatch",
+            "Condition": {
+                "ArnLike": {
+                    "aws:SourceArn": "arn:aws:s3:*:*:azure-sentinel-test"
+                },
+                "StringEquals": {
+                    "aws:SourceAccount": "639309354735"
+                }
+            }
+        },
+
+
+    {
+  "Version": "2008-10-17",
+  "Statement": [
+    {
+      "Sid": "Allow Arn read access S3 bucket",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::639309354735:role/MicrosoftSentinelRole"
+      },
+      "Action": [
+        "s3:GetObject"
+      ],
+      "Resource": "arn:aws:s3:::azure-sentinel-test/*"
+    }
+  ]
+}

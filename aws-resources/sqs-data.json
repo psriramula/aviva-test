@@ -1,0 +1,38 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "eu-west-2",
+      "eventTime": "2023-10-24T11:40:09.842Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "A363VKMGMPRSHP"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "87.254.1.134"
+      },
+      "responseElements": {
+        "x-amz-request-id": "B2E6WE7AEHTJMV37",
+        "x-amz-id-2": "2k0MjbPcZphXMJN+S7ceywJJFdVy2xV8ZiC8xUd9y/x7ugsLRCBnYlxy3qVOv9xkBj00sSMBMqmD8Ur7UJhIkNrwUSOUxZU3"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "cloudwath-eventsnotifier",
+        "bucket": {
+          "name": "azure-sentinel-test",
+          "ownerIdentity": {
+            "principalId": "A363VKMGMPRSHP"
+          },
+          "arn": "arn:aws:s3:::azure-sentinel-test"
+        },
+        "object": {
+          "key": "000000+copy+4.gz",
+          "size": 8045,
+          "eTag": "abf670c29b825104e441a4ec32087877",
+          "sequencer": "006537AD19C28A6EBC"
+        }
+      }
+    }
+  ]
+}

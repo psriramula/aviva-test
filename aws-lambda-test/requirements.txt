@@ -1,0 +1,5 @@
+boto3==1.28.71
+pandas==2.1.1
+aws-lambda-powertools
+pydantic
+fastjsonschema

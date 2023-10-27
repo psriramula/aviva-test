@@ -1,0 +1,228 @@
+worknotes.txt
+
+
+SentinelHealth 
+| where TimeGenerated between (ago(startTime)..ago(endTime)) 
+| where SentinelResourceKind  == "AmazonWebServicesS3" 
+| where Status != "Success" 
+| distinct TimeGenerated, OperationName, SentinelResourceName, Status, Description
+
+
+
+
+
+
+
+Azure Sentinel test
+
+=============================================avavavav
+
+Role
+
+ARN   arn:aws:iam::639309354735:role/MicrosoftSentinelRole
+
+=========================================
+ 	
+
+sqs
+
+ 	cloudwatch - https://sqs.eu-west-2.amazonaws.com/639309354735/AzureSentinelBoundSQS-CloudWatch
+
+
+
+ 	{
+      "Sid": "allow specific role to read/delete/change visibility of SQS messages and get queue url",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "${arn:aws:iam::639309354735:role/MicrosoftSentinelRole}"
+      },
+      "Action": [
+        "SQS:ChangeMessageVisibility",
+        "SQS:DeleteMessage",
+        "SQS:ReceiveMessage",
+        "SQS:GetQueueUrl"
+      ],
+      "Resource": "${arn:aws:sqs:eu-west-2:639309354735:AzureSentinelBoundSQS-CloudWatch}"
+    },
+
+
+
+policy to write messages to queue 
+
+
+     {
+            "Sid": "send-notifications-sqs",
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "s3.amazonaws.com"
+            },
+            "Action": [
+                "SQS:SendMessage"
+            ],
+            "Resource": "arn:aws:sqs:eu-west-2:639309354735:AzureSentinelBoundSQS-CloudWatch",
+            "Condition": {
+                "ArnLike": {
+                    "aws:SourceArn": "arn:aws:s3:*:*:azure-sentinel-test"
+                },
+                "StringEquals": {
+                    "aws:SourceAccount": "639309354735"
+                }
+            }
+        },
+
+
+       {
+      "Sid": "allow specific role to read/delete/change visibility of SQS messages and get queue url",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::639309354735:role/MicrosoftSentinelRole"
+      },
+      "Action": [
+        "SQS:ChangeMessageVisibility",
+        "SQS:DeleteMessage",
+        "SQS:ReceiveMessage",
+        "SQS:GetQueueUrl"
+      ],
+      "Resource": "arn:aws:sqs:eu-west-2:639309354735:AzureSentinelBoundSQS-CloudWatch"
+    }
+
+
+
+
+
+=
+
+
+azure workspace id
+e3d7b064-eea9-47bd-adbf-00c9b05440bb
+
+
+
+
+
+
+============================================
+
+
+
+
+    s3
+
+
+azure-sentinel-test
+
+ARN  arn:aws:s3:::azure-sentinel-test
+
+
+
+
+
+
+    {
+  "Version": "2008-10-17",
+  "Statement": [
+    {
+      "Sid": "Allow Arn read access S3 bucket",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::639309354735:role/MicrosoftSentinelRole"
+      },
+      "Action": [
+        "s3:GetObject"
+      ],
+      "Resource": "arn:aws:s3:::azure-sentinel-test/*"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Learn about connecting to your database 
+Master username
+admin
+Master password
+HeuCuZwGdg5dlfDjmpMhCopy
+Endpoint
+database-1.cluster-crmma4fbpa7m.eu-west-2.rds.amazonaws.comCopy
+
+
+
+
+
+
+
+
+s3 logs put
+
+
+
+
+Full buckt policy
+
+
+
+{
+    "Version": "2008-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "logs.eu-west-2.amazonaws.com"
+            },
+            "Action": "s3:GetBucketAcl",
+            "Resource": "arn:aws:s3:::azure-sentinel-test",
+            "Condition": {
+                "StringEquals": {
+                    "aws:SourceAccount": "639309354735"
+                },
+                "ArnLike": {
+                    "aws:SourceArn": "arn:aws:logs:eu-west-2:639309354735:log-group:RDSOSMetrics:*"
+                }
+            }
+        },
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "logs.eu-west-2.amazonaws.com"
+            },
+            "Action": "s3:PutObject",
+            "Resource": "arn:aws:s3:::azure-sentinel-test/*",
+            "Condition": {
+                "StringEquals": {
+                    "aws:SourceAccount": "639309354735",
+                    "s3:x-amz-acl": "bucket-owner-full-control"
+                },
+                "ArnLike": {
+                    "aws:SourceArn": "arn:aws:logs:eu-west-2:639309354735:log-group:RDSOSMetrics:*"
+                }
+            }
+        },
+        {
+            "Sid": "Allow Arn read access S3 bucket",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::639309354735:role/MicrosoftSentinelRole"
+            },
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::azure-sentinel-test/*"
+        }
+    ]
+}
+

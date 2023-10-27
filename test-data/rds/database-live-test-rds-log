@@ -1,0 +1,224 @@
+2023-10-26T22:32:58.000Z 231026  22:32:58  server_audit:  Audit  STARTED. 
+Found  DAS  config  file,  trying  to  load  DAS  switcher  from  DAS  config  file.
+2023-10-26T22:32:58.000Z 2023-10-26  22:32:58  70368919794224:[DAS][INFO]:  Calculated  persistence  threads  4 
+aurora_enable_das:0
+2023-10-26T22:32:58.000Z 231026  22:32:58  server_audit:  server_audit_incl_users  set  to  ''.
+2023-10-26T22:32:58.000Z 231026  22:32:58  server_audit:  server_audit_excl_users  set  to  ''.
+2023-10-26T22:32:58.000Z 231026  22:32:58  server_audit:  Audit  STARTED. 
+Found  DAS  config  file,  trying  to  load  DAS  switcher  from  DAS  config  file.
+2023-10-26T22:32:58.000Z 2023-10-26  22:32:58  70368919794224:[DAS][INFO]:  Calculated  persistence  threads  4 
+aurora_enable_das:0
+2023-10-26T22:32:58.000Z 231026  22:32:58  server_audit:  server_audit_incl_users  set  to  ''.
+2023-10-26T22:32:58.000Z 231026  22:32:58  server_audit:  server_audit_excl_users  set  to  ''.
+2023-10-26T22:32:58.262Z 2023-10-26T22:32:58.262096Z  0  [Note]  [MY-010949]  [Server]  Basedir  set  to  /rdsdbbin/oscar-8.0.mysql_aurora.3.02.0.0.12759.0/.  (mysqld.cc:5557)
+2023-10-26T22:32:58.262Z 2023-10-26T22:32:58.262110Z  0  [System]  [MY-010116]  [Server]  /rdsdbbin/oscar/bin/mysqld  (mysqld  8.0.23)  starting  as  process  8481  (mysqld.cc:5565)
+2023-10-26T22:32:58.262Z 2023-10-26T22:32:58.262096Z  0  [Note]  [MY-010949]  [Server]  Basedir  set  to  /rdsdbbin/oscar-8.0.mysql_aurora.3.02.0.0.12759.0/.  (mysqld.cc:5557)
+2023-10-26T22:32:58.262Z 2023-10-26T22:32:58.262110Z  0  [System]  [MY-010116]  [Server]  /rdsdbbin/oscar/bin/mysqld  (mysqld  8.0.23)  starting  as  process  8481  (mysqld.cc:5565)
+2023-10-26T22:32:58.265Z 2023-10-26T22:32:58.265895Z  0  [Warning]  [MY-013245]  [Server]  The  SSL  library  function  CRYPTO_set_mem_functions  failed.  This  is  typically  caused  by  the  SSL  library  already  being  used.  As  a  result  the  SSL  memory  allocation  will  not  be  instrumented.  (mysqld.cc:6046)
+2023-10-26T22:32:58.265Z 2023-10-26T22:32:58.265895Z  0  [Warning]  [MY-013245]  [Server]  The  SSL  library  function  CRYPTO_set_mem_functions  failed.  This  is  typically  caused  by  the  SSL  library  already  being  used.  As  a  result  the  SSL  memory  allocation  will  not  be  instrumented.  (mysqld.cc:6046)
+2023-10-26T22:32:58.267Z 2023-10-26T22:32:58.267878Z  0  [Note]  [MY-010747]  [Server]  Plugin  'FEDERATED'  is  disabled.  (sql_plugin.cc:3629)
+2023-10-26T22:32:58.267Z 2023-10-26T22:32:58.267878Z  0  [Note]  [MY-010747]  [Server]  Plugin  'FEDERATED'  is  disabled.  (sql_plugin.cc:3629)
+2023-10-26T22:32:58.269Z 2023-10-26T22:32:58.269488Z  1  [System]  [MY-013576]  [InnoDB]  InnoDB  initialization  has  started.  (ha_innodb.cc:13189)
+2023-10-26T22:32:58.269Z 2023-10-26T22:32:58.269558Z  1  [Note]  [MY-013547]  [InnoDB]  Atomic  write  disabled  (ha_innodb.cc:13213)
+2023-10-26T22:32:58.269Z 2023-10-26T22:32:58.269606Z  1  [Note]  [MY-012932]  [InnoDB]  PUNCH  HOLE  support  available  (srv0start.cc:2328)
+2023-10-26T22:32:58.269Z 2023-10-26T22:32:58.269644Z  1  [Note]  [MY-012944]  [InnoDB]  Uses  event  mutexes  (srv0start.cc:2372)
+2023-10-26T22:32:58.269Z 2023-10-26T22:32:58.269680Z  1  [Note]  [MY-012945]  [InnoDB]  GCC  builtin  __atomic_thread_fence()  is  used  for  memory  barrier  (srv0start.cc:2373)
+2023-10-26T22:32:58.269Z 2023-10-26T22:32:58.269729Z  1  [Note]  [MY-012948]  [InnoDB]  Compressed  tables  use  zlib  1.2.11  (srv0start.cc:2391)
+2023-10-26T22:32:58.269Z 2023-10-26T22:32:58.269488Z  1  [System]  [MY-013576]  [InnoDB]  InnoDB  initialization  has  started.  (ha_innodb.cc:13189)
+2023-10-26T22:32:58.269Z 2023-10-26T22:32:58.269558Z  1  [Note]  [MY-013547]  [InnoDB]  Atomic  write  disabled  (ha_innodb.cc:13213)
+2023-10-26T22:32:58.269Z 2023-10-26T22:32:58.269606Z  1  [Note]  [MY-012932]  [InnoDB]  PUNCH  HOLE  support  available  (srv0start.cc:2328)
+2023-10-26T22:32:58.269Z 2023-10-26T22:32:58.269644Z  1  [Note]  [MY-012944]  [InnoDB]  Uses  event  mutexes  (srv0start.cc:2372)
+2023-10-26T22:32:58.269Z 2023-10-26T22:32:58.269680Z  1  [Note]  [MY-012945]  [InnoDB]  GCC  builtin  __atomic_thread_fence()  is  used  for  memory  barrier  (srv0start.cc:2373)
+2023-10-26T22:32:58.269Z 2023-10-26T22:32:58.269729Z  1  [Note]  [MY-012948]  [InnoDB]  Compressed  tables  use  zlib  1.2.11  (srv0start.cc:2391)
+2023-10-26T22:32:58.271Z 2023-10-26T22:32:58.271518Z  1  [Note]  [MY-013251]  [InnoDB]  Number  of  pools:  1  (ut0pool.h:280)
+2023-10-26T22:32:58.271Z 2023-10-26T22:32:58.271660Z  1  [Note]  [MY-012951]  [InnoDB]  Not  using  CPU  crc32  instructions  (srv0start.cc:2423)
+2023-10-26T22:32:58.271Z 2023-10-26T22:32:58.271933Z  1  [Note]  [MY-012203]  [InnoDB]  Directories  to  scan  './'  (srv0start.cc:2455)
+2023-10-26T22:32:58.271Z 2023-10-26T22:32:58.271518Z  1  [Note]  [MY-013251]  [InnoDB]  Number  of  pools:  1  (ut0pool.h:280)
+2023-10-26T22:32:58.271Z 2023-10-26T22:32:58.271660Z  1  [Note]  [MY-012951]  [InnoDB]  Not  using  CPU  crc32  instructions  (srv0start.cc:2423)
+2023-10-26T22:32:58.271Z 2023-10-26T22:32:58.271933Z  1  [Note]  [MY-012203]  [InnoDB]  Directories  to  scan  './'  (srv0start.cc:2455)
+2023-10-26T22:32:58.272Z 2023-10-26T22:32:58.272928Z  1  [Note]  [MY-012955]  [InnoDB]  Initializing  buffer  pool,  total  size  =  7.826172G,  instances  =  2,  chunk  size  =3.913086G    (srv0start.cc:2551)
+2023-10-26T22:32:58.272Z 2023-10-26T22:32:58.272928Z  1  [Note]  [MY-012955]  [InnoDB]  Initializing  buffer  pool,  total  size  =  7.826172G,  instances  =  2,  chunk  size  =3.913086G    (srv0start.cc:2551)
+2023-10-26T22:33:03.811Z 2023-10-26T22:33:03.811519Z  1  [Note]  [MY-012957]  [InnoDB]  Completed  initialization  of  buffer  pool  (srv0start.cc:2820)
+2023-10-26T22:33:03.811Z 2023-10-26T22:33:03.811519Z  1  [Note]  [MY-012957]  [InnoDB]  Completed  initialization  of  buffer  pool  (srv0start.cc:2820)
+2023-10-26T22:33:04.897Z 2023-10-26T22:33:04.897709Z  1  [Note]  [MY-012915]  [InnoDB]  Created  2  undo  tablespaces.  (srv0start.cc:1406)
+2023-10-26T22:33:04.897Z 2023-10-26T22:33:04.897709Z  1  [Note]  [MY-012915]  [InnoDB]  Created  2  undo  tablespaces.  (srv0start.cc:1406)
+2023-10-26T22:33:05.096Z 2023-10-26T22:33:05.096696Z  1  [Note]  [MY-011980]  [InnoDB]  GTID  recovery  trx_no:  2806  (clone0repl.h:140)
+2023-10-26T22:33:05.096Z 2023-10-26T22:33:05.096696Z  1  [Note]  [MY-011980]  [InnoDB]  GTID  recovery  trx_no:  2806  (clone0repl.h:140)
+2023-10-26T22:33:05.363Z 2023-10-26T22:33:05.363632Z  1  [Note]  [MY-012255]  [InnoDB]  Removed  temporary  tablespace  data  file:  "ibtmp1"  (fsp0space.cc:186)
+2023-10-26T22:33:05.363Z 2023-10-26T22:33:05.363729Z  1  [Note]  [MY-012923]  [InnoDB]  Creating  shared  tablespace  for  temporary  tables  (srv0start.cc:1908)
+2023-10-26T22:33:05.363Z 2023-10-26T22:33:05.363632Z  1  [Note]  [MY-012255]  [InnoDB]  Removed  temporary  tablespace  data  file:  "ibtmp1"  (fsp0space.cc:186)
+2023-10-26T22:33:05.363Z 2023-10-26T22:33:05.363729Z  1  [Note]  [MY-012923]  [InnoDB]  Creating  shared  tablespace  for  temporary  tables  (srv0start.cc:1908)
+2023-10-26T22:33:05.365Z 2023-10-26T22:33:05.365311Z  1  [Note]  [MY-012265]  [InnoDB]  Setting  file  './ibtmp1'  size  to  12  MB.  Physically  writing  the  file  full;  Please  wait  ...  (fsp0sysspace.cc:393)
+2023-10-26T22:33:05.365Z 2023-10-26T22:33:05.365311Z  1  [Note]  [MY-012265]  [InnoDB]  Setting  file  './ibtmp1'  size  to  12  MB.  Physically  writing  the  file  full;  Please  wait  ...  (fsp0sysspace.cc:393)
+2023-10-26T22:33:05.367Z 2023-10-26T22:33:05.367497Z  1  [Note]  [MY-012266]  [InnoDB]  File  './ibtmp1'  size  is  now  12  MB.  (fsp0sysspace.cc:405)
+2023-10-26T22:33:05.367Z 2023-10-26T22:33:05.367497Z  1  [Note]  [MY-012266]  [InnoDB]  File  './ibtmp1'  size  is  now  12  MB.  (fsp0sysspace.cc:405)
+2023-10-26T22:33:05.406Z 2023-10-26T22:33:05.406887Z  1  [Note]  [MY-013018]  [InnoDB]  Created  128  and  tracked  128  new  rollback  segment(s)  in  the  temporary  tablespace.  128  are  now  active.  (trx0rseg.cc:695)
+2023-10-26T22:33:05.406Z 2023-10-26T22:33:05.406887Z  1  [Note]  [MY-013018]  [InnoDB]  Created  128  and  tracked  128  new  rollback  segment(s)  in  the  temporary  tablespace.  128  are  now  active.  (trx0rseg.cc:695)
+2023-10-26T22:33:05.413Z 2023-10-26T22:33:05.413270Z  1  [Note]  [MY-013018]  [InnoDB]  Created  128  and  tracked  128  new  rollback  segment(s)  in  undo  tablespace  number  1.  128  are  now  active.  (trx0rseg.cc:695)
+2023-10-26T22:33:05.413Z 2023-10-26T22:33:05.413270Z  1  [Note]  [MY-013018]  [InnoDB]  Created  128  and  tracked  128  new  rollback  segment(s)  in  undo  tablespace  number  1.  128  are  now  active.  (trx0rseg.cc:695)
+2023-10-26T22:33:05.421Z 2023-10-26T22:33:05.421957Z  1  [Note]  [MY-013018]  [InnoDB]  Created  128  and  tracked  128  new  rollback  segment(s)  in  undo  tablespace  number  2.  128  are  now  active.  (trx0rseg.cc:695)
+2023-10-26T22:33:05.421Z 2023-10-26T22:33:05.421957Z  1  [Note]  [MY-013018]  [InnoDB]  Created  128  and  tracked  128  new  rollback  segment(s)  in  undo  tablespace  number  2.  128  are  now  active.  (trx0rseg.cc:695)
+2023-10-26T22:33:06.450Z 2023-10-26T22:33:06.450598Z  1  [System]  [MY-013577]  [InnoDB]  InnoDB  initialization  has  ended.  (ha_innodb.cc:13326)
+2023-10-26T22:33:06.450Z 2023-10-26T22:33:06.450598Z  1  [System]  [MY-013577]  [InnoDB]  InnoDB  initialization  has  ended.  (ha_innodb.cc:13326)
+2023-10-26T22:33:07.051Z 2023-10-26T22:33:07.051718Z  1  [Note]  [MY-011089]  [Server]  Data  dictionary  restarting  version  '80023'.  (bootstrapper.cc:1198)
+2023-10-26T22:33:07.051Z 2023-10-26T22:33:07.051718Z  1  [Note]  [MY-011089]  [Server]  Data  dictionary  restarting  version  '80023'.  (bootstrapper.cc:1198)
+2023-10-26T22:33:07.636Z 2023-10-26T22:33:07.636418Z  1  [Note]  [MY-012357]  [InnoDB]  Reading  DD  tablespace  files  (ha_innodb.cc:3883)
+2023-10-26T22:33:07.636Z 2023-10-26T22:33:07.636418Z  1  [Note]  [MY-012357]  [InnoDB]  Reading  DD  tablespace  files  (ha_innodb.cc:3883)
+2023-10-26T22:33:07.637Z 2023-10-26T22:33:07.637277Z  1  [Note]  [MY-013604]  [InnoDB]  Skipping  InnoDB  tablespace  path  validation.  Manually  moved  tablespace  files  will  not  be  detected!  (ha_innodb.cc:3896)
+2023-10-26T22:33:07.637Z 2023-10-26T22:33:07.637277Z  1  [Note]  [MY-013604]  [InnoDB]  Skipping  InnoDB  tablespace  path  validation.  Manually  moved  tablespace  files  will  not  be  detected!  (ha_innodb.cc:3896)
+2023-10-26T22:33:07.664Z 2023-10-26T22:33:07.664017Z  1  [Note]  [MY-010006]  [Server]  Using  data  dictionary  with  version  '80023'.  (bootstrapper.cc:954)
+2023-10-26T22:33:07.664Z 2023-10-26T22:33:07.664017Z  1  [Note]  [MY-010006]  [Server]  Using  data  dictionary  with  version  '80023'.  (bootstrapper.cc:954)
+2023-10-26T22:33:07.687Z 2023-10-26T22:33:07.687446Z  0  [Note]  [MY-010990]  [Server]  Resource  group  feature  shall  not  be  available.  Incompatible  thread  handling  option.  (resource_group_mgr.h:132)
+2023-10-26T22:33:07.687Z 2023-10-26T22:33:07.687446Z  0  [Note]  [MY-010990]  [Server]  Resource  group  feature  shall  not  be  available.  Incompatible  thread  handling  option.  (resource_group_mgr.h:132)
+2023-10-26T22:33:11.000Z 2023-10-26  22:33:11.300  0x40000a77b230  [PROGRESS_INDICATOR:  in  OSCAR_BINLOG_INIT_GTID]  Reading  from  file  /rdsdbdata/log/binlog/mysql-bin-changelog.index  at  position  0
+2023-10-26T22:33:11.000Z 2023-10-26  22:33:11.300  0x40000a77b230  [PROGRESS_INDICATOR:  in  OSCAR_BINLOG_INIT_GTID]  Reading  from  file  /rdsdbdata/log/binlog/mysql-bin-changelog.index  at  position  0
+2023-10-26T22:33:11.203Z 2023-10-26T22:33:11.203524Z  0  [Note]  [MY-012487]  [InnoDB]  DDL  log  recovery  :  begin  (log0ddl.cc:1949)
+2023-10-26T22:33:11.203Z 2023-10-26T22:33:11.203524Z  0  [Note]  [MY-012487]  [InnoDB]  DDL  log  recovery  :  begin  (log0ddl.cc:1949)
+2023-10-26T22:33:11.205Z 2023-10-26T22:33:11.205211Z  0  [Note]  [MY-012488]  [InnoDB]  DDL  log  recovery  :  end  (log0ddl.cc:1959)
+2023-10-26T22:33:11.205Z 2023-10-26T22:33:11.205211Z  0  [Note]  [MY-012488]  [InnoDB]  DDL  log  recovery  :  end  (log0ddl.cc:1959)
+2023-10-26T22:33:11.220Z 2023-10-26T22:33:11.220927Z  0  [Note]  [MY-012922]  [InnoDB]  Waiting  for  purge  to  start  (srv0start.cc:1733)
+2023-10-26T22:33:11.220Z 2023-10-26T22:33:11.220927Z  0  [Note]  [MY-012922]  [InnoDB]  Waiting  for  purge  to  start  (srv0start.cc:1733)
+2023-10-26T22:33:11.301Z 2023-10-26T22:33:11.301604Z  0  [Note]  [MY-010303]  [Server]  Skipping  generation  of  SSL  certificates  as  options  related  to  SSL  are  specified.  (sql_authentication.cc:5172)
+2023-10-26T22:33:11.301Z 2023-10-26T22:33:11.301604Z  0  [Note]  [MY-010303]  [Server]  Skipping  generation  of  SSL  certificates  as  options  related  to  SSL  are  specified.  (sql_authentication.cc:5172)
+2023-10-26T22:33:11.302Z 2023-10-26T22:33:11.302257Z  0  [Warning]  [MY-013414]  [Server]  Server  SSL  certificate  doesn't  verify:  unable  to  get  issuer  certificate  (ssl_acceptor_context_data.cc:156)
+2023-10-26T22:33:11.302Z 2023-10-26T22:33:11.302514Z  0  [System]  [MY-013602]  [Server]  Channel  mysql_main  configured  to  support  TLS.  Encrypted  connections  are  now  supported  for  this  channel.  (ssl_acceptor_context_operator.cc:88)
+2023-10-26T22:33:11.302Z 2023-10-26T22:33:11.302257Z  0  [Warning]  [MY-013414]  [Server]  Server  SSL  certificate  doesn't  verify:  unable  to  get  issuer  certificate  (ssl_acceptor_context_data.cc:156)
+2023-10-26T22:33:11.302Z 2023-10-26T22:33:11.302514Z  0  [System]  [MY-013602]  [Server]  Channel  mysql_main  configured  to  support  TLS.  Encrypted  connections  are  now  supported  for  this  channel.  (ssl_acceptor_context_operator.cc:88)
+2023-10-26T22:33:11.375Z 2023-10-26T22:33:11.375204Z  0  [Note]  [MY-010309]  [Server]  Auto  generated  RSA  key  files  through  --sha256_password_auto_generate_rsa_keys  are  placed  in  data  directory.  (sql_authentication.cc:5276)
+2023-10-26T22:33:11.375Z 2023-10-26T22:33:11.375409Z  0  [Note]  [MY-010308]  [Server]  Skipping  generation  of  RSA  key  pair  through  --caching_sha2_password_auto_generate_rsa_keys  as  key  files  are  present  in  data  directory.  (sql_authentication.cc:5264)
+2023-10-26T22:33:11.375Z 2023-10-26T22:33:11.375697Z  0  [Note]  [MY-010252]  [Server]  Server  hostname  (bind-address):  '*';  port:  3306  (socket_connection.cc:377)
+2023-10-26T22:33:11.375Z 2023-10-26T22:33:11.375886Z  0  [Note]  [MY-010253]  [Server]  IPv6  is  available.  (socket_connection.cc:427)
+2023-10-26T22:33:11.375Z 2023-10-26T22:33:11.375204Z  0  [Note]  [MY-010309]  [Server]  Auto  generated  RSA  key  files  through  --sha256_password_auto_generate_rsa_keys  are  placed  in  data  directory.  (sql_authentication.cc:5276)
+2023-10-26T22:33:11.375Z 2023-10-26T22:33:11.375409Z  0  [Note]  [MY-010308]  [Server]  Skipping  generation  of  RSA  key  pair  through  --caching_sha2_password_auto_generate_rsa_keys  as  key  files  are  present  in  data  directory.  (sql_authentication.cc:5264)
+2023-10-26T22:33:11.375Z 2023-10-26T22:33:11.375697Z  0  [Note]  [MY-010252]  [Server]  Server  hostname  (bind-address):  '*';  port:  3306  (socket_connection.cc:377)
+2023-10-26T22:33:11.375Z 2023-10-26T22:33:11.375886Z  0  [Note]  [MY-010253]  [Server]  IPv6  is  available.  (socket_connection.cc:427)
+2023-10-26T22:33:11.376Z 2023-10-26T22:33:11.376045Z  0  [Note]  [MY-010264]  [Server]      -  '::'  resolves  to  '::';  (socket_connection.cc:491)
+2023-10-26T22:33:11.376Z 2023-10-26T22:33:11.376352Z  0  [Note]  [MY-010251]  [Server]  Server  socket  created  on  IP:  '::'.  (socket_connection.cc:338)
+2023-10-26T22:33:11.376Z 2023-10-26T22:33:11.376045Z  0  [Note]  [MY-010264]  [Server]      -  '::'  resolves  to  '::';  (socket_connection.cc:491)
+2023-10-26T22:33:11.376Z 2023-10-26T22:33:11.376352Z  0  [Note]  [MY-010251]  [Server]  Server  socket  created  on  IP:  '::'.  (socket_connection.cc:338)
+2023-10-26T22:33:11.381Z 2023-10-26T22:33:11.381979Z  0  [Warning]  [MY-000067]  [Server]  unknown  variable  'loose_authentication_kerberos_service_key_tab=/rdsdbdata/activedirectory/keytab'.
+2023-10-26T22:33:11.381Z 2023-10-26T22:33:11.381979Z  0  [Warning]  [MY-000067]  [Server]  unknown  variable  'loose_authentication_kerberos_service_key_tab=/rdsdbdata/activedirectory/keytab'.
+2023-10-26T22:33:11.382Z 2023-10-26T22:33:11.382155Z  0  [Warning]  [MY-000067]  [Server]  unknown  variable  'loose_authentication_kerberos_service_principal=mysql/database-1-instance-1.crmma4fbpa7m.eu-west-2.rds.amazonaws.com'.
+2023-10-26T22:33:11.382Z 2023-10-26T22:33:11.382305Z  0  [Warning]  [MY-000067]  [Server]  unknown  variable  'loose-aurora_parallel_export=OFF'.
+2023-10-26T22:33:11.382Z 2023-10-26T22:33:11.382455Z  0  [Warning]  [MY-000067]  [Server]  unknown  variable  'loose_eit_enabled=1'.
+2023-10-26T22:33:11.382Z 2023-10-26T22:33:11.382612Z  0  [Warning]  [MY-000067]  [Server]  unknown  variable  'loose_rpc_v2_enabled=1'.
+2023-10-26T22:33:11.382Z 2023-10-26T22:33:11.382155Z  0  [Warning]  [MY-000067]  [Server]  unknown  variable  'loose_authentication_kerberos_service_principal=mysql/database-1-instance-1.crmma4fbpa7m.eu-west-2.rds.amazonaws.com'.
+2023-10-26T22:33:11.382Z 2023-10-26T22:33:11.382305Z  0  [Warning]  [MY-000067]  [Server]  unknown  variable  'loose-aurora_parallel_export=OFF'.
+2023-10-26T22:33:11.382Z 2023-10-26T22:33:11.382455Z  0  [Warning]  [MY-000067]  [Server]  unknown  variable  'loose_eit_enabled=1'.
+2023-10-26T22:33:11.382Z 2023-10-26T22:33:11.382612Z  0  [Warning]  [MY-000067]  [Server]  unknown  variable  'loose_rpc_v2_enabled=1'.
+2023-10-26T22:33:11.462Z 2023-10-26T22:33:11.462666Z  6  [Note]  [MY-010051]  [Server]  Event  Scheduler:  scheduler  thread  started  with  id  6  (event_scheduler.cc:561)
+2023-10-26T22:33:11.462Z 2023-10-26T22:33:11.462666Z  6  [Note]  [MY-010051]  [Server]  Event  Scheduler:  scheduler  thread  started  with  id  6  (event_scheduler.cc:561)
+2023-10-26T22:33:11.747Z 2023-10-26T22:33:11.747690Z  0  [System]  [MY-010931]  [Server]  /rdsdbbin/oscar/bin/mysqld:  ready  for  connections.  Version:  '8.0.23'    socket:  '/tmp/mysql.sock'    port:  3306    Source  distribution.
+2023-10-26T22:33:11.747Z 2023-10-26T22:33:11.747690Z  0  [System]  [MY-010931]  [Server]  /rdsdbbin/oscar/bin/mysqld:  ready  for  connections.  Version:  '8.0.23'    socket:  '/tmp/mysql.sock'    port:  3306    Source  distribution.
+2023-10-26T22:33:13.000Z 231026  22:33:13  server_audit:  Audit  STARTED. 
+Found  DAS  config  file,  trying  to  load  DAS  switcher  from  DAS  config  file.
+2023-10-26T22:33:13.000Z 2023-10-26  22:33:13  70369459266096:[DAS][INFO]:  Calculated  persistence  threads  4 
+aurora_enable_das:0
+2023-10-26T22:33:13.000Z 231026  22:33:13  server_audit:  server_audit_incl_users  set  to  ''.
+2023-10-26T22:33:13.000Z 231026  22:33:13  server_audit:  server_audit_excl_users  set  to  ''.
+2023-10-26T22:33:13.000Z 231026  22:33:13  server_audit:  Audit  STARTED. 
+Found  DAS  config  file,  trying  to  load  DAS  switcher  from  DAS  config  file.
+2023-10-26T22:33:13.000Z 2023-10-26  22:33:13  70369459266096:[DAS][INFO]:  Calculated  persistence  threads  4 
+aurora_enable_das:0
+2023-10-26T22:33:13.000Z 231026  22:33:13  server_audit:  server_audit_incl_users  set  to  ''.
+2023-10-26T22:33:13.000Z 231026  22:33:13  server_audit:  server_audit_excl_users  set  to  ''.
+2023-10-26T22:33:13.790Z 2023-10-26T22:33:13.790611Z  0  [Note]  [MY-010949]  [Server]  Basedir  set  to  /rdsdbbin/oscar-8.0.mysql_aurora.3.02.0.0.12759.0/.  (mysqld.cc:5557)
+2023-10-26T22:33:13.790Z 2023-10-26T22:33:13.790627Z  0  [System]  [MY-010116]  [Server]  /rdsdbbin/oscar/bin/mysqld  (mysqld  8.0.23)  starting  as  process  9014  (mysqld.cc:5565)
+2023-10-26T22:33:13.790Z 2023-10-26T22:33:13.790611Z  0  [Note]  [MY-010949]  [Server]  Basedir  set  to  /rdsdbbin/oscar-8.0.mysql_aurora.3.02.0.0.12759.0/.  (mysqld.cc:5557)
+2023-10-26T22:33:13.790Z 2023-10-26T22:33:13.790627Z  0  [System]  [MY-010116]  [Server]  /rdsdbbin/oscar/bin/mysqld  (mysqld  8.0.23)  starting  as  process  9014  (mysqld.cc:5565)
+2023-10-26T22:33:13.793Z 2023-10-26T22:33:13.793489Z  0  [Warning]  [MY-010161]  [Server]  You  need  to  use  --log-bin  to  make  --log-slave-updates  work.  (mysqld.cc:6659)
+2023-10-26T22:33:13.793Z 2023-10-26T22:33:13.793489Z  0  [Warning]  [MY-010161]  [Server]  You  need  to  use  --log-bin  to  make  --log-slave-updates  work.  (mysqld.cc:6659)
+2023-10-26T22:33:13.794Z 2023-10-26T22:33:13.794372Z  0  [Warning]  [MY-013245]  [Server]  The  SSL  library  function  CRYPTO_set_mem_functions  failed.  This  is  typically  caused  by  the  SSL  library  already  being  used.  As  a  result  the  SSL  memory  allocation  will  not  be  instrumented.  (mysqld.cc:6046)
+2023-10-26T22:33:13.794Z 2023-10-26T22:33:13.794372Z  0  [Warning]  [MY-013245]  [Server]  The  SSL  library  function  CRYPTO_set_mem_functions  failed.  This  is  typically  caused  by  the  SSL  library  already  being  used.  As  a  result  the  SSL  memory  allocation  will  not  be  instrumented.  (mysqld.cc:6046)
+2023-10-26T22:33:13.796Z 2023-10-26T22:33:13.796368Z  0  [Note]  [MY-010747]  [Server]  Plugin  'FEDERATED'  is  disabled.  (sql_plugin.cc:3629)
+2023-10-26T22:33:13.796Z 2023-10-26T22:33:13.796368Z  0  [Note]  [MY-010747]  [Server]  Plugin  'FEDERATED'  is  disabled.  (sql_plugin.cc:3629)
+2023-10-26T22:33:13.797Z 2023-10-26T22:33:13.797957Z  1  [System]  [MY-013576]  [InnoDB]  InnoDB  initialization  has  started.  (ha_innodb.cc:13189)
+2023-10-26T22:33:13.797Z 2023-10-26T22:33:13.797957Z  1  [System]  [MY-013576]  [InnoDB]  InnoDB  initialization  has  started.  (ha_innodb.cc:13189)
+2023-10-26T22:33:13.798Z 2023-10-26T22:33:13.798028Z  1  [Note]  [MY-013547]  [InnoDB]  Atomic  write  disabled  (ha_innodb.cc:13213)
+2023-10-26T22:33:13.798Z 2023-10-26T22:33:13.798077Z  1  [Note]  [MY-012932]  [InnoDB]  PUNCH  HOLE  support  available  (srv0start.cc:2328)
+2023-10-26T22:33:13.798Z 2023-10-26T22:33:13.798122Z  1  [Note]  [MY-012944]  [InnoDB]  Uses  event  mutexes  (srv0start.cc:2372)
+2023-10-26T22:33:13.798Z 2023-10-26T22:33:13.798172Z  1  [Note]  [MY-012945]  [InnoDB]  GCC  builtin  __atomic_thread_fence()  is  used  for  memory  barrier  (srv0start.cc:2373)
+2023-10-26T22:33:13.798Z 2023-10-26T22:33:13.798224Z  1  [Note]  [MY-012948]  [InnoDB]  Compressed  tables  use  zlib  1.2.11  (srv0start.cc:2391)
+2023-10-26T22:33:13.798Z 2023-10-26T22:33:13.798028Z  1  [Note]  [MY-013547]  [InnoDB]  Atomic  write  disabled  (ha_innodb.cc:13213)
+2023-10-26T22:33:13.798Z 2023-10-26T22:33:13.798077Z  1  [Note]  [MY-012932]  [InnoDB]  PUNCH  HOLE  support  available  (srv0start.cc:2328)
+2023-10-26T22:33:13.798Z 2023-10-26T22:33:13.798122Z  1  [Note]  [MY-012944]  [InnoDB]  Uses  event  mutexes  (srv0start.cc:2372)
+2023-10-26T22:33:13.798Z 2023-10-26T22:33:13.798172Z  1  [Note]  [MY-012945]  [InnoDB]  GCC  builtin  __atomic_thread_fence()  is  used  for  memory  barrier  (srv0start.cc:2373)
+2023-10-26T22:33:13.798Z 2023-10-26T22:33:13.798224Z  1  [Note]  [MY-012948]  [InnoDB]  Compressed  tables  use  zlib  1.2.11  (srv0start.cc:2391)
+2023-10-26T22:33:13.800Z 2023-10-26T22:33:13.800129Z  1  [Note]  [MY-013251]  [InnoDB]  Number  of  pools:  1  (ut0pool.h:280)
+2023-10-26T22:33:13.800Z 2023-10-26T22:33:13.800263Z  1  [Note]  [MY-012951]  [InnoDB]  Not  using  CPU  crc32  instructions  (srv0start.cc:2423)
+2023-10-26T22:33:13.800Z 2023-10-26T22:33:13.800539Z  1  [Note]  [MY-012203]  [InnoDB]  Directories  to  scan  './'  (srv0start.cc:2455)
+2023-10-26T22:33:13.800Z 2023-10-26T22:33:13.800129Z  1  [Note]  [MY-013251]  [InnoDB]  Number  of  pools:  1  (ut0pool.h:280)
+2023-10-26T22:33:13.800Z 2023-10-26T22:33:13.800263Z  1  [Note]  [MY-012951]  [InnoDB]  Not  using  CPU  crc32  instructions  (srv0start.cc:2423)
+2023-10-26T22:33:13.800Z 2023-10-26T22:33:13.800539Z  1  [Note]  [MY-012203]  [InnoDB]  Directories  to  scan  './'  (srv0start.cc:2455)
+2023-10-26T22:33:13.801Z 2023-10-26T22:33:13.801484Z  1  [Note]  [MY-012955]  [InnoDB]  Initializing  buffer  pool,  total  size  =  7.826172G,  instances  =  2,  chunk  size  =3.913086G    (srv0start.cc:2551)
+2023-10-26T22:33:13.801Z 2023-10-26T22:33:13.801484Z  1  [Note]  [MY-012955]  [InnoDB]  Initializing  buffer  pool,  total  size  =  7.826172G,  instances  =  2,  chunk  size  =3.913086G    (srv0start.cc:2551)
+2023-10-26T22:33:14.797Z 2023-10-26T22:33:14.797821Z  1  [Note]  [MY-012957]  [InnoDB]  Completed  initialization  of  buffer  pool  (srv0start.cc:2820)
+2023-10-26T22:33:14.797Z 2023-10-26T22:33:14.797821Z  1  [Note]  [MY-012957]  [InnoDB]  Completed  initialization  of  buffer  pool  (srv0start.cc:2820)
+2023-10-26T22:33:14.881Z 2023-10-26T22:33:14.881926Z  1  [Note]  [MY-013252]  [InnoDB]  Using  undo  tablespace  './undo_001'.  (srv0start.cc:1257)
+2023-10-26T22:33:14.881Z 2023-10-26T22:33:14.881926Z  1  [Note]  [MY-013252]  [InnoDB]  Using  undo  tablespace  './undo_001'.  (srv0start.cc:1257)
+2023-10-26T22:33:14.883Z 2023-10-26T22:33:14.883853Z  1  [Note]  [MY-013252]  [InnoDB]  Using  undo  tablespace  './undo_002'.  (srv0start.cc:1257)
+2023-10-26T22:33:14.883Z 2023-10-26T22:33:14.883853Z  1  [Note]  [MY-013252]  [InnoDB]  Using  undo  tablespace  './undo_002'.  (srv0start.cc:1257)
+2023-10-26T22:33:14.886Z 2023-10-26T22:33:14.886522Z  1  [Note]  [MY-012910]  [InnoDB]  Opened  2  existing  undo  tablespaces.  (srv0start.cc:1320)
+2023-10-26T22:33:14.886Z 2023-10-26T22:33:14.886619Z  1  [Note]  [MY-011980]  [InnoDB]  GTID  recovery  trx_no:  197632  (clone0repl.h:140)
+2023-10-26T22:33:14.886Z 2023-10-26T22:33:14.886522Z  1  [Note]  [MY-012910]  [InnoDB]  Opened  2  existing  undo  tablespaces.  (srv0start.cc:1320)
+2023-10-26T22:33:14.886Z 2023-10-26T22:33:14.886619Z  1  [Note]  [MY-011980]  [InnoDB]  GTID  recovery  trx_no:  197632  (clone0repl.h:140)
+2023-10-26T22:33:14.889Z 2023-10-26T22:33:14.889345Z  1  [Note]  [MY-012255]  [InnoDB]  Removed  temporary  tablespace  data  file:  "ibtmp1"  (fsp0space.cc:186)
+2023-10-26T22:33:14.889Z 2023-10-26T22:33:14.889432Z  1  [Note]  [MY-012923]  [InnoDB]  Creating  shared  tablespace  for  temporary  tables  (srv0start.cc:1908)
+2023-10-26T22:33:14.889Z 2023-10-26T22:33:14.889345Z  1  [Note]  [MY-012255]  [InnoDB]  Removed  temporary  tablespace  data  file:  "ibtmp1"  (fsp0space.cc:186)
+2023-10-26T22:33:14.889Z 2023-10-26T22:33:14.889432Z  1  [Note]  [MY-012923]  [InnoDB]  Creating  shared  tablespace  for  temporary  tables  (srv0start.cc:1908)
+2023-10-26T22:33:14.892Z 2023-10-26T22:33:14.892620Z  1  [Note]  [MY-012265]  [InnoDB]  Setting  file  './ibtmp1'  size  to  12  MB.  Physically  writing  the  file  full;  Please  wait  ...  (fsp0sysspace.cc:393)
+2023-10-26T22:33:14.892Z 2023-10-26T22:33:14.892620Z  1  [Note]  [MY-012265]  [InnoDB]  Setting  file  './ibtmp1'  size  to  12  MB.  Physically  writing  the  file  full;  Please  wait  ...  (fsp0sysspace.cc:393)
+2023-10-26T22:33:14.894Z 2023-10-26T22:33:14.894192Z  1  [Note]  [MY-012266]  [InnoDB]  File  './ibtmp1'  size  is  now  12  MB.  (fsp0sysspace.cc:405)
+2023-10-26T22:33:14.894Z 2023-10-26T22:33:14.894192Z  1  [Note]  [MY-012266]  [InnoDB]  File  './ibtmp1'  size  is  now  12  MB.  (fsp0sysspace.cc:405)
+2023-10-26T22:33:14.948Z 2023-10-26T22:33:14.948360Z  1  [Note]  [MY-013018]  [InnoDB]  Created  128  and  tracked  128  new  rollback  segment(s)  in  the  temporary  tablespace.  128  are  now  active.  (trx0rseg.cc:695)
+2023-10-26T22:33:14.948Z 2023-10-26T22:33:14.948360Z  1  [Note]  [MY-013018]  [InnoDB]  Created  128  and  tracked  128  new  rollback  segment(s)  in  the  temporary  tablespace.  128  are  now  active.  (trx0rseg.cc:695)
+2023-10-26T22:33:14.976Z 2023-10-26T22:33:14.976669Z  1  [System]  [MY-013577]  [InnoDB]  InnoDB  initialization  has  ended.  (ha_innodb.cc:13326)
+2023-10-26T22:33:14.976Z 2023-10-26T22:33:14.976669Z  1  [System]  [MY-013577]  [InnoDB]  InnoDB  initialization  has  ended.  (ha_innodb.cc:13326)
+2023-10-26T22:33:14.981Z 2023-10-26T22:33:14.981384Z  1  [Note]  [MY-011089]  [Server]  Data  dictionary  restarting  version  '80023'.  (bootstrapper.cc:1198)
+2023-10-26T22:33:14.981Z 2023-10-26T22:33:14.981384Z  1  [Note]  [MY-011089]  [Server]  Data  dictionary  restarting  version  '80023'.  (bootstrapper.cc:1198)
+2023-10-26T22:33:15.072Z 2023-10-26T22:33:15.072585Z  1  [Note]  [MY-012357]  [InnoDB]  Reading  DD  tablespace  files  (ha_innodb.cc:3883)
+2023-10-26T22:33:15.072Z 2023-10-26T22:33:15.072585Z  1  [Note]  [MY-012357]  [InnoDB]  Reading  DD  tablespace  files  (ha_innodb.cc:3883)
+2023-10-26T22:33:15.073Z 2023-10-26T22:33:15.073500Z  1  [Note]  [MY-013604]  [InnoDB]  Skipping  InnoDB  tablespace  path  validation.  Manually  moved  tablespace  files  will  not  be  detected!  (ha_innodb.cc:3896)
+2023-10-26T22:33:15.073Z 2023-10-26T22:33:15.073500Z  1  [Note]  [MY-013604]  [InnoDB]  Skipping  InnoDB  tablespace  path  validation.  Manually  moved  tablespace  files  will  not  be  detected!  (ha_innodb.cc:3896)
+2023-10-26T22:33:15.110Z 2023-10-26T22:33:15.110737Z  1  [Note]  [MY-010006]  [Server]  Using  data  dictionary  with  version  '80023'.  (bootstrapper.cc:954)
+2023-10-26T22:33:15.110Z 2023-10-26T22:33:15.110737Z  1  [Note]  [MY-010006]  [Server]  Using  data  dictionary  with  version  '80023'.  (bootstrapper.cc:954)
+2023-10-26T22:33:15.115Z 2023-10-26T22:33:15.115457Z  0  [Note]  [MY-010990]  [Server]  Resource  group  feature  shall  not  be  available.  Incompatible  thread  handling  option.  (resource_group_mgr.h:132)
+2023-10-26T22:33:15.115Z 2023-10-26T22:33:15.115457Z  0  [Note]  [MY-010990]  [Server]  Resource  group  feature  shall  not  be  available.  Incompatible  thread  handling  option.  (resource_group_mgr.h:132)
+2023-10-26T22:33:15.137Z 2023-10-26T22:33:15.137917Z  0  [Note]  [MY-012487]  [InnoDB]  DDL  log  recovery  :  begin  (log0ddl.cc:1949)
+2023-10-26T22:33:15.137Z 2023-10-26T22:33:15.137917Z  0  [Note]  [MY-012487]  [InnoDB]  DDL  log  recovery  :  begin  (log0ddl.cc:1949)
+2023-10-26T22:33:15.138Z 2023-10-26T22:33:15.138077Z  0  [Note]  [MY-012488]  [InnoDB]  DDL  log  recovery  :  end  (log0ddl.cc:1959)
+2023-10-26T22:33:15.138Z 2023-10-26T22:33:15.138077Z  0  [Note]  [MY-012488]  [InnoDB]  DDL  log  recovery  :  end  (log0ddl.cc:1959)
+2023-10-26T22:33:15.141Z 2023-10-26T22:33:15.141603Z  0  [Note]  [MY-012922]  [InnoDB]  Waiting  for  purge  to  start  (srv0start.cc:1733)
+2023-10-26T22:33:15.141Z 2023-10-26T22:33:15.141603Z  0  [Note]  [MY-012922]  [InnoDB]  Waiting  for  purge  to  start  (srv0start.cc:1733)
+2023-10-26T22:33:15.193Z 2023-10-26T22:33:15.193915Z  0  [Note]  [MY-010303]  [Server]  Skipping  generation  of  SSL  certificates  as  options  related  to  SSL  are  specified.  (sql_authentication.cc:5172)
+2023-10-26T22:33:15.193Z 2023-10-26T22:33:15.193915Z  0  [Note]  [MY-010303]  [Server]  Skipping  generation  of  SSL  certificates  as  options  related  to  SSL  are  specified.  (sql_authentication.cc:5172)
+2023-10-26T22:33:15.194Z 2023-10-26T22:33:15.194623Z  0  [Warning]  [MY-013414]  [Server]  Server  SSL  certificate  doesn't  verify:  unable  to  get  issuer  certificate  (ssl_acceptor_context_data.cc:156)
+2023-10-26T22:33:15.194Z 2023-10-26T22:33:15.194848Z  0  [System]  [MY-013602]  [Server]  Channel  mysql_main  configured  to  support  TLS.  Encrypted  connections  are  now  supported  for  this  channel.  (ssl_acceptor_context_operator.cc:88)
+2023-10-26T22:33:15.194Z 2023-10-26T22:33:15.194623Z  0  [Warning]  [MY-013414]  [Server]  Server  SSL  certificate  doesn't  verify:  unable  to  get  issuer  certificate  (ssl_acceptor_context_data.cc:156)
+2023-10-26T22:33:15.194Z 2023-10-26T22:33:15.194848Z  0  [System]  [MY-013602]  [Server]  Channel  mysql_main  configured  to  support  TLS.  Encrypted  connections  are  now  supported  for  this  channel.  (ssl_acceptor_context_operator.cc:88)
+2023-10-26T22:33:15.195Z 2023-10-26T22:33:15.195025Z  0  [Note]  [MY-010308]  [Server]  Skipping  generation  of  RSA  key  pair  through  --sha256_password_auto_generate_rsa_keys  as  key  files  are  present  in  data  directory.  (sql_authentication.cc:5264)
+2023-10-26T22:33:15.195Z 2023-10-26T22:33:15.195158Z  0  [Note]  [MY-010308]  [Server]  Skipping  generation  of  RSA  key  pair  through  --caching_sha2_password_auto_generate_rsa_keys  as  key  files  are  present  in  data  directory.  (sql_authentication.cc:5264)
+2023-10-26T22:33:15.195Z 2023-10-26T22:33:15.195418Z  0  [Note]  [MY-010252]  [Server]  Server  hostname  (bind-address):  '*';  port:  3306  (socket_connection.cc:377)
+2023-10-26T22:33:15.195Z 2023-10-26T22:33:15.195600Z  0  [Note]  [MY-010253]  [Server]  IPv6  is  available.  (socket_connection.cc:427)
+2023-10-26T22:33:15.195Z 2023-10-26T22:33:15.195767Z  0  [Note]  [MY-010264]  [Server]      -  '::'  resolves  to  '::';  (socket_connection.cc:491)
+2023-10-26T22:33:15.195Z 2023-10-26T22:33:15.195025Z  0  [Note]  [MY-010308]  [Server]  Skipping  generation  of  RSA  key  pair  through  --sha256_password_auto_generate_rsa_keys  as  key  files  are  present  in  data  directory.  (sql_authentication.cc:5264)
+2023-10-26T22:33:15.195Z 2023-10-26T22:33:15.195158Z  0  [Note]  [MY-010308]  [Server]  Skipping  generation  of  RSA  key  pair  through  --caching_sha2_password_auto_generate_rsa_keys  as  key  files  are  present  in  data  directory.  (sql_authentication.cc:5264)
+2023-10-26T22:33:15.195Z 2023-10-26T22:33:15.195418Z  0  [Note]  [MY-010252]  [Server]  Server  hostname  (bind-address):  '*';  port:  3306  (socket_connection.cc:377)
+2023-10-26T22:33:15.195Z 2023-10-26T22:33:15.195600Z  0  [Note]  [MY-010253]  [Server]  IPv6  is  available.  (socket_connection.cc:427)
+2023-10-26T22:33:15.195Z 2023-10-26T22:33:15.195767Z  0  [Note]  [MY-010264]  [Server]      -  '::'  resolves  to  '::';  (socket_connection.cc:491)
+2023-10-26T22:33:15.196Z 2023-10-26T22:33:15.196043Z  0  [Note]  [MY-010251]  [Server]  Server  socket  created  on  IP:  '::'.  (socket_connection.cc:338)
+2023-10-26T22:33:15.196Z 2023-10-26T22:33:15.196043Z  0  [Note]  [MY-010251]  [Server]  Server  socket  created  on  IP:  '::'.  (socket_connection.cc:338)
+2023-10-26T22:33:15.200Z 2023-10-26T22:33:15.200271Z  0  [Warning]  [MY-000067]  [Server]  unknown  variable  'loose_authentication_kerberos_service_key_tab=/rdsdbdata/activedirectory/keytab'.
+2023-10-26T22:33:15.200Z 2023-10-26T22:33:15.200445Z  0  [Warning]  [MY-000067]  [Server]  unknown  variable  'loose_authentication_kerberos_service_principal=mysql/database-1-instance-1.crmma4fbpa7m.eu-west-2.rds.amazonaws.com'.
+2023-10-26T22:33:15.200Z 2023-10-26T22:33:15.200597Z  0  [Warning]  [MY-000067]  [Server]  unknown  variable  'loose-aurora_parallel_export=OFF'.
+2023-10-26T22:33:15.200Z 2023-10-26T22:33:15.200747Z  0  [Warning]  [MY-000067]  [Server]  unknown  variable  'loose_eit_enabled=1'.
+2023-10-26T22:33:15.200Z 2023-10-26T22:33:15.200901Z  0  [Warning]  [MY-000067]  [Server]  unknown  variable  'loose_rpc_v2_enabled=1'.
+2023-10-26T22:33:15.200Z 2023-10-26T22:33:15.200271Z  0  [Warning]  [MY-000067]  [Server]  unknown  variable  'loose_authentication_kerberos_service_key_tab=/rdsdbdata/activedirectory/keytab'.
+2023-10-26T22:33:15.200Z 2023-10-26T22:33:15.200445Z  0  [Warning]  [MY-000067]  [Server]  unknown  variable  'loose_authentication_kerberos_service_principal=mysql/database-1-instance-1.crmma4fbpa7m.eu-west-2.rds.amazonaws.com'.
+2023-10-26T22:33:15.200Z 2023-10-26T22:33:15.200597Z  0  [Warning]  [MY-000067]  [Server]  unknown  variable  'loose-aurora_parallel_export=OFF'.
+2023-10-26T22:33:15.200Z 2023-10-26T22:33:15.200747Z  0  [Warning]  [MY-000067]  [Server]  unknown  variable  'loose_eit_enabled=1'.
+2023-10-26T22:33:15.200Z 2023-10-26T22:33:15.200901Z  0  [Warning]  [MY-000067]  [Server]  unknown  variable  'loose_rpc_v2_enabled=1'.
+2023-10-26T22:33:15.231Z 2023-10-26T22:33:15.231603Z  5  [Note]  [MY-010051]  [Server]  Event  Scheduler:  scheduler  thread  started  with  id  5  (event_scheduler.cc:561)
+2023-10-26T22:33:15.231Z 2023-10-26T22:33:15.231603Z  5  [Note]  [MY-010051]  [Server]  Event  Scheduler:  scheduler  thread  started  with  id  5  (event_scheduler.cc:561)
+2023-10-26T22:33:15.233Z 2023-10-26T22:33:15.233106Z  0  [System]  [MY-010931]  [Server]  /rdsdbbin/oscar/bin/mysqld:  ready  for  connections.  Version:  '8.0.23'    socket:  '/tmp/mysql.sock'    port:  3306    Source  distribution.
+2023-10-26T22:33:15.233Z 2023-10-26T22:33:15.233106Z  0  [System]  [MY-010931]  [Server]  /rdsdbbin/oscar/bin/mysqld:  ready  for  connections.  Version:  '8.0.23'    socket:  '/tmp/mysql.sock'    port:  3306    Source  distribution.
