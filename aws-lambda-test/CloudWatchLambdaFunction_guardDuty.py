@@ -5,7 +5,10 @@ import csv
 import time
 import pandas as pd
 from datetime import datetime
+import gzip
 import os
+
+from numpy import w
 
 logs = boto3.client('logs', region_name='eu-west-2')
 s3 = boto3.resource('s3', region_name='eu-west-2')
@@ -59,12 +62,13 @@ def lambda_handler(event, context):
         
         # Remove unnecessary column
         fileToS3 = df.drop(columns=["ingestionTime"])
+        with gzip.open(f'/Users/prasadsriramula/dev/projects/aviva/testdata/{OUTPUT_FILE_NAME}-test.gz', w) as fout:
+            fout.write(df)
 
-        # Export data to temporary file in the right format, which will be deleted as soon as the session ends
-        fileToS3.to_json( f'/Users/prasadsriramula/dev/projects/aviva/testdata/{OUTPUT_FILE_NAME}.gz',  compression='gzip')
-        
+
+
         # Upload data to desired folder in bucket
-        s3.Bucket(BUCKET_NAME).upload_file(f'/Users/prasadsriramula/dev/projects/aviva/testdata/{OUTPUT_FILE_NAME}.gz', f'{BUCKET_PREFIX}{OUTPUT_FILE_NAME}.gz')
+        s3.Bucket(BUCKET_NAME).upload_file(f'/tmp/{OUTPUT_FILE_NAME}.gz', f'{BUCKET_PREFIX}{OUTPUT_FILE_NAME}.gz')
 
     except Exception as e:
         print("    Error exporting %s: %s" % (LOG_GROUP_NAME, getattr(e, 'message', repr(e))))

@@ -2,8 +2,8 @@
 import json
 from schemas import INPUT_SCHEMA
 from aws_lambda_powertools.utilities.validation import validate
+#from CloudWatchLambdaFunction_guardDuty import lambda_handler
 from CloudWatchLambdaFunction import lambda_handler
-
 
 
 

@@ -1,0 +1,49 @@
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "111122223333:aws:ec2-instance:i-123412341234example",
+    "arn": "arn:aws:sts::111122223333:assumed-role/aws:ec2-instance/i-123412341234example",
+    "accountId": "111122223333",
+    "accessKeyId": "AKIAI44QH8DHBEXAMPLE",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "111122223333:aws:ec2-instance",
+        "arn": "arn:aws:iam::111122223333:role/aws:ec2-instance",
+        "accountId": "111122223333",
+        "userName": "aws:ec2-instance"
+      },
+      "attributes": {
+        "creationDate": "2023-03-05T04:00:21Z",
+        "mfaAuthenticated": "false"
+      },
+      "ec2RoleDelivery": "2.0"
+    }
+  },
+  "eventTime": "2023-03-05T06:03:49Z",
+  "eventSource": "guardduty.amazonaws.com",
+  "eventName": "SendSecurityTelemetry",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "54.240.230.177",
+  "userAgent": "aws-sdk-rust/0.54.1 os/linux lang/rust/1.66.0",
+  "requestParameters": null,
+  "responseElements": null,
+  "requestID": "a1b2c3d4-5678-90ab-cdef-EXAMPLE11111",
+  "eventID": "a1b2c3d4-5678-90ab-cdef-EXAMPLEbbbbb",
+  "readOnly": false,
+  "resources": [{
+    "accountId": "111122223333",
+    "type": "AWS::GuardDuty::Detector",
+    "ARN": "arn:aws:guardduty:us-west-2:111122223333:detector/12abc34d567e8fa901bc2d34e56789f0"
+  }],
+  "eventType": "AwsApiCall",
+  "managementEvent": false,
+  "recipientAccountId": "111122223333",
+  "eventCategory": "Data",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.2",
+    "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "clientProvidedHostHeader": "guardduty-data.us-east-1.amazonaws.com"
+  }
+}
